@@ -1,0 +1,12 @@
+{
+    "name": "jp/backend",
+    "authors": [
+        {
+            "name": "Frag Spawn",
+            "email": "frag.spawn@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/http-foundation": "^5.2"
+    }
+}
