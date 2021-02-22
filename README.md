@@ -7,9 +7,13 @@ to setup use the CLI to:
 
 ```
 cd frontend npm update
+
 npm run serve
+
 cd ../backend/compuser update
+
 php -S 0.0.0.0:8090
+
 chrome.exe --disable-web-security --disable-gpu --user-data-dir=~/chromeTemp
 ```
 
