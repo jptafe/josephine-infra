@@ -7,7 +7,7 @@ to setup use the CLI to:
 
 ```
 cd frontend 
-npm update
+npm i --legacy-peer-deps update 
 npm run serve
 
 cd ../backend/
