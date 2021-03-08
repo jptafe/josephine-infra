@@ -24,7 +24,7 @@ Navigate to either http://localhost:8080 or http://localhost:8090
 
 * We need a database
 * the api does nothing, there should be a default action
-* our frontend needs to test access to the backend with a http://localhsot:8090 test
+* our frontend needs to test access to the backend with a http://localhsot:8090 fetch
 
 
 
