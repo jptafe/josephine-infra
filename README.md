@@ -7,7 +7,7 @@ to setup use the CLI to:
 
 ```
 cd frontend 
-npm i --legacy-peer-deps update 
+npm update 
 npm run serve
 
 cd ../backend/
@@ -15,6 +15,8 @@ compuser update
 php -S 0.0.0.0:8090
 
 chrome.exe --disable-web-security --disable-gpu --user-data-dir=~/chromeTemp
+
+Navigate to either http://localhost:8080 or http://localhost:8090
 ```
 
 
