@@ -21,5 +21,13 @@ $session->start();
 
 // the above code does nothing, but we have to start somewhere!
 
+$response = new Response();
+
+$response->setStatusCode(200);
+$response->setContent(json_encode('Hello World'));
+
+$response->send();
+
+
 
 ?>
