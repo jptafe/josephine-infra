@@ -1,30 +1,29 @@
-# INSTRUCTIONS
+# frontend
 
-the packages of Vue and Bootstrap are in the frontendfolder
-and
-PHP with http-foundation library are in the backend folder
-to setup use the CLI to:
-
+## Project setup
 ```
-cd frontend 
-npm update 
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
 npm run serve
-
-cd ../backend/
-compuser update
-php -S 0.0.0.0:8090
-
-chrome.exe --disable-web-security --disable-gpu --user-data-dir=~/chromeTemp
-
-Navigate to either http://localhost:8080 or http://localhost:8090
 ```
 
+### Compiles and minifies for production
+```
+npm run build
+```
 
-# TODO
+### Run your tests
+```
+npm run test
+```
 
-* We need a database
-* the api does nothing, there should be a default action
-* our frontend needs to test access to the backend with a http://localhsot:8090 fetch
+### Lints and fixes files
+```
+npm run lint
+```
 
-
-
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
